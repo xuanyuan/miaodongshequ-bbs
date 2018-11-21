@@ -1,0 +1,79 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  height: 100%;
+  min-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+// 酷炫滚动条
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #eee;
+  margin: -2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #aaa;
+  min-height: 150px;
+  min-width: 150px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+  background: #555555
+}
+
+::-webkit-scrollbar-thumb:horizontal:hover {
+  background: #555555
+}
+
+// placeholder
+
+// ::-webkit-input-placeholder {
+//   /* WebKit browsers */
+//   font-family: 'Source Sans Pro', sans-serif;
+//   color: white;
+//   font-weight: 300;
+// }
+
+// :-moz-placeholder {
+//   /* Mozilla Firefox 4 to 18 */
+//   font-family: 'Source Sans Pro', sans-serif;
+//   color: white;
+//   opacity: 1;
+//   font-weight: 300;
+// }
+
+// ::-moz-placeholder {
+//   /* Mozilla Firefox 19+ */
+//   font-family: 'Source Sans Pro', sans-serif;
+//   color: white;
+//   opacity: 1;
+//   font-weight: 300;
+// }
+
+// :-ms-input-placeholder {
+//   /* Internet Explorer 10+ */
+//   font-family: 'Source Sans Pro', sans-serif;
+//   color: white;
+//   font-weight: 300;
+// }
